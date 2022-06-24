@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-block-start: 50px;
+  }
+
+  .section-one{
+    grid-column: 1/7;
+
+    .bg-image{
+      top: 1px;
+      right: 90px;
+      opacity: 0.5;
+    }
+  }
+
+  .section-two{
+    grid-column: 7/10;
+  }
+
+  .section-three{
+    grid-row: 2/3;
+    grid-column: 1/4;
+  }
+
+  .section-four{
+    grid-column: 4/10;
+  }
+
+  .section-five{
+    grid-column: 10/13;
+    grid-row: 1/3;
+  }
+
+}

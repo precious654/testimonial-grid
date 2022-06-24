@@ -1,8 +1,75 @@
+@import "config";
+@import "desktop";
+@import "mobile";
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+footer{
+  margin-block-start: 50px;
+}
+
+.section{
+  padding: 20px;
+  border-radius: 12px;
+
+  h3{
+    margin-block-start: 0.5rem;
+    color: #FFFFFF;
+  }
+
+  p{
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+  }
+
+  .experience{
+    margin-block-start: 0.8rem;
+  }
+}
+
+.section-one{
+  position: relative;
+  background-color: hsl(263, 55%, 52%);
+
+  .bg-image{
+    position: absolute;
+    opacity: 0.5;
+  }
+}
+
+.section-two{
+  background-color:  hsl(217, 19%, 35%);
+}
+
+.section-three{
+  background-color: #FFFFFF;
+
+  h3{
+    color: hsl(217, 19%, 35%);
+  }
+}
+
+.section-four{
+  background-color: hsl(219, 29%, 14%);
+}
+
+.section-five{
+  background-color: #FFFFFF;
+
+  h3{
+    color:  hsl(217, 19%, 35%);
+  }
+}
+
 
 .attribution{
   font-size: 11px;
